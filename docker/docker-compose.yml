@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  sortdata:
+    build: ./sort_pics/.
+    image: python3:latest
+    tty: true
+    volumes:
+      - /home/pi/data/sorted:/usr/src/app/sorted
+      - /home/pi/data/unsorted:/usr/src/app/unsorted
+
+#  sync2018:
+#    build: ./megasync/.
+#    image: megasync:latest
+#    tty: true
+#    volumes:
+#      - /home/pi/data/sorted/2018:/sync
+#    environment:
+#      - MEGA_EMAIL=678@gmx.de
+#      - MEGA_PWD=
+#      - REMOTE_FOLDER=2018
+#      - LOCAL_FOLDER=/sync
+
+  sync2020:
+    build: ./megasync/.
+    image: megasync:latest
+    tty: true
+    volumes:
+      - /home/pi/data/sorted/2020:/sync
+    environment:
+      - MEGA_EMAIL=333@gmx.de
+      - MEGA_PWD=
+      - REMOTE_FOLDER=2020
+      - LOCAL_FOLDER=/sync

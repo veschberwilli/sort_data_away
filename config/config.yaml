@@ -1,0 +1,35 @@
+# -----------------------------------------------
+# path settings
+# -----------------------------------------------
+path_settings:
+  #dir_data_unsorted: /mnt/pics/unsorted/
+  #dir_data_sorted: /mnt/pics/sorted/
+  dir_data_unsorted: /home/egon/syncthing/Kamera_Janine/Camera
+  dir_data_sorted: /media/egon/egon/data_sorted
+
+# -----------------------------------------------
+# data formats
+# -----------------------------------------------
+pic_file_type:
+  - jpg
+  - JPG
+  - jpeg
+  - JPEG
+  - png
+  - PNG
+vid_file_type:
+  - mp4
+  - MP4
+  - avi
+  - AVI
+  - MTS
+  - MOV
+
+# -----------------------------------------------
+# other
+# -----------------------------------------------
+exif_key_create_date: :CreateDate
+daily_folder_suffix: _dummy
+originator_names:
+  - Janine
+  - Michi
