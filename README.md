@@ -13,7 +13,7 @@ For example
 
 Supported file types are mainly the one related to image files (e.g. png, jpg).
 The date of the images are taken from the exif headers respectively via the tool ExifTool via
-[github] (https://github.com/exiftool/exiftool) or download from [exiftool] (https://exiftool.org/)
+[github](https://github.com/exiftool/exiftool) or download from [exiftool](https://exiftool.org/)
 
 ## Instructions
 To use the tool, be aware of properly configuring the config under \
@@ -58,4 +58,4 @@ under `./exif_meta_tool` is a script that allows to query the data based on Exif
 - Support further data types
 
 ## License
-to be done
+[MIT](./LICENSE)
