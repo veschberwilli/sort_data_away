@@ -36,7 +36,7 @@ python3 sort_data.py
 Another script, namely the clean_folder_structure.py can be used to rename file and folder names 
 in order to allow for recursive search (e.g. ä --> ae, empty spaces --> _)
 
-Run the tool via:
+Run the tool via (**DEPRECATED. NEEDS REWORK.**):
 ```
 python3 clean_folder_structure.py
 ```
