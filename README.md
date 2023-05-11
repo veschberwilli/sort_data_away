@@ -1,5 +1,5 @@
 # sort_data_away
-![Diagram](Flow_Sort_Data_Away)
+![Flow](Flow_Sort_Data_Away.drawio.png)
 ## Overview
 This tool aims at archiving (or sorting) away files from a data pool into the following structure:
 For example
